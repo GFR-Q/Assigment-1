@@ -9,5 +9,6 @@ public class Main {
         Owners owner = context.getBean(Owners.class);
         System.out.println("First Car: "+car.getName());
         System.out.println("Owner: "+owner.getName());
+        System.out.println("Rakhat's car is: "+owner.getCars());
     }
 }

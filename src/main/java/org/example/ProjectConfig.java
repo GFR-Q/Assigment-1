@@ -24,6 +24,7 @@ public class ProjectConfig {
     Owners owners() {
         Owners Owner1 = new Owners();
         Owner1.setName("Rakhat");
+        Owner1.setCars(cars());
         return Owner1;
     }
 }
