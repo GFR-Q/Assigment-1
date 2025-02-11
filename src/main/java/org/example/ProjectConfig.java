@@ -20,5 +20,11 @@ public class ProjectConfig {
         Car2.setName("Lexus");
         return Car2;
     }
+    @Bean
+    Owners owners() {
+        Owners Owner1 = new Owners();
+        Owner1.setName("Rakhat");
+        return Owner1;
+    }
 }
 
