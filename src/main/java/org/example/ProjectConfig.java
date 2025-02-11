@@ -10,9 +10,15 @@ import org.springframework.context.annotation.Primary;
 public class ProjectConfig {
     @Bean
     Cars cars() {
-        var CarOne = new Cars();
-        CarOne.setName("BMW");
-        return CarOne;
+        Cars Car1 = new Cars();
+        Car1.setName("BMW");
+        return Car1;
+    }
+    @Bean
+    Cars cars2() {
+        Cars Car2 = new Cars();
+        Car2.setName("Lexus");
+        return Car2;
     }
 }
 
